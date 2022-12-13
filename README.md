@@ -46,13 +46,13 @@ You can make improvements to the project as you require. However this project is
   Current implementation
   ```Java
   /***  Begin generating dummy data for In-Memory implementation  ***/
-  expenseManager = new InMemoryDemoExpenseManager();
+//  expenseManager = new InMemoryDemoExpenseManager();
   /*** END ***/
   ```
   Your implementation
   ```Java
   /***  Setup the persistent storage implementation  ***/
-  expenseManager = new PersistentExpenseManager(context);
+//  expenseManager = new PersistentExpenseManager(context);
   /*** END ***/
   ```
 6. Commit your code and push to your forked repository in GitHub.
